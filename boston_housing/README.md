@@ -1,10 +1,8 @@
-# Machine Learning Engineer Nanodegree
-# Model Evaluation and Validation
 ## Project: Predicting Boston Housing Prices
 
 ### Install
 
-This project requires **Python 2.7**(if you complete this project in Python 3.x, you will have to update the code in various places including all relevant print statements) and the following Python libraries installed:
+This project requires **Python 2.7** and the following Python libraries installed:
 
 - [NumPy](http://www.numpy.org/)
 - [Pandas](http://pandas.pydata.org/)
@@ -17,7 +15,9 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ### Code
 
-Template code is provided in the `boston_housing.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+`boston_housing.ipynb` notebook file contains the full implementation of the project.
+`visuals.py` file contains the visualization code of this project.
+`housing.csv` is dataset file being used.
 
 ### Run
 
@@ -35,7 +35,7 @@ This will open the Jupyter Notebook software and project file in your browser.
 
 ### Data
 
-The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing).
+The Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing).
 
 **Features**
 1.  `RM`: average number of rooms per dwelling
