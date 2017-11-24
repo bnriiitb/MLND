@@ -14,18 +14,18 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ### Code
 
-`boston_housing.ipynb` notebook file contains the full implementation of the project.
+`Light_Colour_Detection.ipynb` notebook file contains the full implementation of the project.
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `boston_housing/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `color_detection/` (that contains this README) and run one of the following commands:
 
 ```bash
-ipython notebook boston_housing.ipynb
+ipython notebook Light_Colour_Detection.ipynb
 ```  
 or
 ```bash
-jupyter notebook boston_housing.ipynb
+jupyter notebook Light_Colour_Detection.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
