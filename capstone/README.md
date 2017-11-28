@@ -15,7 +15,7 @@ Indix hosts the world’s largest collection of programmatically accessible stru
 
 ## Problem Statement
 
-Aim of the problem is to classifying a product into a particular category is very important to serve various use cases – like, helping search, performing product matching, providing category specific insights, and so on. The problem of stamping every product in our catalogue into a category is a Multi Label Hierarchical Classification problem. Your challenge is to build a micro version of this classifier where you will predict 4 classes.
+Aim of the problem is to classifying a product into a particular category is very important to serve various use cases – like, helping search, performing product matching, providing category specific insights, and so on. The problem of stamping every product in our catalogue into a category is a Multi Label Hierarchical Classification problem. In this submission I have built a micro version of this classifier where you will predict 4 classes.
 
 ## Data Description
 
