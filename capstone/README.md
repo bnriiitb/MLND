@@ -1,13 +1,44 @@
-# Machine Learning Engineer Nanodegree
-## Specializations
-## Project: Capstone Proposal and Capstone Project
+## Indix Coding Challenge
 
-**Note**
+### Install
 
-The Capstone is a two-staged project. The first is the proposal component, where you can receive valuable feedback about your project idea, design, and proposed solution. This must be completed prior to your implementation and submitting for the capstone project. 
+To run this code, it requires **Python 3.6** and the following Python libraries installed:
 
-You can find the [capstone proposal rubric here](https://review.udacity.com/#!/rubrics/410/view), and the [capstone project rubric here](https://review.udacity.com/#!/rubrics/108/view). Please ensure that you are following directions correctly before submitting these two stages which encapsulate your capstone.
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org/)
+- [matplotlib](http://matplotlib.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
 
-You will find an `open_projects` folder in these files. This will be where pre-curated capstone projects are available, should you choose to work on a project already partially designed for you. 
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
-Please email [machine-support@udacity.com](mailto:machine-support@udacity.com) if you have any questions.
+If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 3.x installer and not the Python 2.7 installer.
+
+### Code
+
+`media_product_classification.ipynb` notebook file contains the full implementation of the coding challenge.
+
+### Run
+
+In a terminal or command window, navigate to the top-level project directory `capstone/` (that contains this README) and run one of the following commands:
+
+```bash
+ipython notebook media_product_classification.ipynb
+```  
+or
+```bash
+jupyter notebook media_product_classification.ipynb
+```
+
+This will open the Jupyter Notebook software and project file in your browser.
+
+### Data
+
+**Features**
+1. `storeId`: store id
+2. `url`: product page url
+3. `additionalAttributes`: additional attrvutes describing the product
+4. `breadcrumbs`: bread crumb navigation data
+5. `label`: label
+
+**Target Variable**
+4. `label`: category of the product
