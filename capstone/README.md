@@ -19,7 +19,7 @@ Aim of the problem is to classifying a product into a particular category is ver
 
 ## Data Description
 
-The datasets are available at the following locations
+The datasets are available at the following locations. Please dowload the files.
 
 Training data: 
 https://drive.google.com/open?id=1q83Iyu3zrYf1JefwcaX2izpt7fp_xIiP
