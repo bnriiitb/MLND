@@ -9,29 +9,20 @@
 
 ## Project Overview
 
-Note: This is the original problem that I am developing at production level. Due to company compliance original datasets were not exposed, the provided datasets are resembling the original datasets.
+Note: This is the original problem that I am developing at production level. Due to company compliance original datasets are not exposed, however the provided datasets are resembling the original datasets.
 
 Indix hosts the world’s largest collection of programmatically accessible structured product information in the cloud. The products in our database belong to 25 verticals and that translates approximately to 6000 sub-categories. Every product that we carry in our database gets stamped with information about the “category” it belongs to. 
 
+
 ## Problem Statement
 
-Aim of the problem is to classifying a product into a particular category is very important to serve various use cases – like, helping search, performing product matching, providing category specific insights, and so on. The problem of stamping every product in our catalogue into a category is a Multi Label Hierarchical Classification problem. In this submission I have built a micro version of this classifier where you will predict 4 classes.
+Aim of this project is to classifying a product into a particular category, which is very important to serve various use cases – like, helping search, performing product matching, providing category specific insights, and so on. The problem of stamping every product in our catalogue into a category is a Multi Class Classification problem. In this submission I have built a micro version of this classifier where I will predict 4 classes.
+
 
 ## Data Description
 
-The datasets are available at the following locations. Please dowload the files.
-
-Training data: 
-https://drive.google.com/open?id=1q83Iyu3zrYf1JefwcaX2izpt7fp_xIiP
-
-Test data: 
-https://drive.google.com/file/d/1LlXRerCMWTDl6r1aeS9Cy960C7knYHz3/view?usp=sharing
-
-
-Training data has the following fields and contains 603201 records
 1. storeId - a unique number for identifying a website
 2. additionalAttributes - Product attribute related to a particular product. These are key, value pairs that can be found in tabular format as product information for most products in e-commerce websites.
-
 
 An example of additionalAttributes
 {"ASIN": " B000JJRY9M",
