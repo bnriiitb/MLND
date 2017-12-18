@@ -9,17 +9,27 @@
 
 ## Project Overview
 
-Note: This is the original problem that I am developing at production level. Due to company compliance original datasets are not exposed, however the provided datasets are resembling the original datasets.
+Note: This is the original problem that I am developing at production level. Due to company compliance policies original datasets are not exposed, however the provided datasets are resembling the original datasets.
 
-Indix hosts the world’s largest collection of programmatically accessible structured product information in the cloud. The products in our database belong to 25 verticals and that translates approximately to 6000 sub-categories. Every product that we carry in our database gets stamped with information about the “category” it belongs to. 
+Indix is a Product Intelligence company based in Seattle, that currently offers a cloud-based product information platform. It is also building a broad and deep product catalogue to enable mobile and desktop apps and websites to become product-aware. Indix provides access to APIs that enable developers to build product-aware applications. 
+As mentioned above, Indix hosts the world’s largest collection of programmatically accessible structured product information in the cloud. The products in our database belong to 25 verticals and that translates approximately to 6000 sub-categories. Every product that we carry in our database gets stamped with information about the “category” it belongs to. 
+Indix's services are centred on proprietary algorithms that structure crawled product data and a data-as-a-service business model.
+The database offers coverage for most consumer retail product categories. The database also includes many industrial and business-to-business products. Indix provides brands and retailers with access to data such as specifications, facets, availability, assortment, promotions, and real-time pricing information. In comparison to offerings from Google, which are influenced by Google's utilization of relevance algorithms, or Amazon, which is limited to only the products in its own catalogue, Indix's infinite product catalogue helps all client-facing digital media and environments become more product-aware.
+
 
 
 ## Problem Statement
 
-Aim of this project is to classifying a product into a particular category, which is very important to serve various use cases – like, helping search, performing product matching, providing category specific insights, and so on. The problem of stamping every product in our catalogue into a category is a Multi Class Classification problem. In this submission I have built a micro version of this classifier where I will predict 4 classes.
+As Indix has the tons of data collected programmatically from web, it has become a challenging task to classifying a product into a particular category, which is very important to serve various use cases – like, helping search, performing product matching, providing category specific insights, and so on. 
+From the project overview and project statement it is clear that, the problem of stamping every product in our catalogue into a category is a Classification problem in Machine Learning. We have a handful of techniques and methods in Machine Learning to tackle this kind of real world problems.
+To be more specific, here the stamping every product in our catalogue is a Multi Class Classification problem.
+
 
 
 ## Data Description
+
+The training dataset contains storeid, url, additionalAttributes, breadcrumbs and label features.
+
 
 1. storeId - a unique number for identifying a website
 2. additionalAttributes - Product attribute related to a particular product. These are key, value pairs that can be found in tabular format as product information for most products in e-commerce websites.
