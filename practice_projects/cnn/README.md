@@ -1,1 +1,0 @@
-# cnn practice projects
